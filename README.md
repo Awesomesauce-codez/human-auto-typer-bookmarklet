@@ -1,56 +1,64 @@
-# human-auto-typer-bookmarklet
-Enter any text and have it typed naturally into the selected field. Supports inputs, textareas, and contenteditable elements using a single JavaScript bookmarklet.
+# Human Typer Bookmarklet
 
-✨ Features
+A lightweight JavaScript bookmarklet that simulates **human-like typing** in the currently focused input, textarea, or contenteditable field.  
+Instead of instantly pasting text, it types character by character with natural delays.
 
-Types text like a human (randomized delays)
+---
 
-Works with:
+## ✨ Features
 
-<input>
+- Types text with human-like, randomized delays  
+- Works with:
+  - Input fields
+  - Textareas
+  - Contenteditable elements
+- Uses clipboard text (copy & paste friendly)
+- No installs or dependencies
+- Runs entirely in your browser
 
-<textarea>
+---
 
-contenteditable elements
+## 🚀 Installation
 
-No installs, no dependencies
+1. Copy the bookmarklet code from this repository
+2. Create a new browser bookmark
+3. Name it something like `Human Typer`
+4. Paste the code into the bookmark’s **URL** field
+5. Save the bookmark
 
-Runs entirely in your browser
+⚠️ Make sure the URL starts with `javascript:` and is all on **one line**
 
-🚀 Installation
+---
 
-Copy the bookmarklet code from this repository
+## 🧠 How to Use
 
-Create a new browser bookmark
+1. **Copy** the text you want to type (`Ctrl + C` / `Cmd + C`)
+2. Open a webpage with a text field
+3. Click inside the field you want to type into
+4. Click the **Human Typer** bookmark
+5. The copied text will be typed out character by character
 
-Name it something like: Human Typer
+---
 
-Paste the code into the bookmark’s URL field
+## 📝 Notes & Limitations
 
-Save the bookmark
+- You must manually focus (click) the text field first
+- Some websites may block simulated input for security reasons
+- Clipboard access may be restricted on certain sites
+- Works best in Chrome, Edge, and Firefox
+- Safari may have limited bookmarklet support
 
-⚠️ Make sure the URL starts with javascript: and is all on one line
+---
 
-🧠 How to Use
+## 🛠 Use Cases
 
-Open any webpage with a text field
+- UI and form testing
+- Demos and presentations
+- Simulating real user input
+- Avoiding instant paste behavior
 
-Click inside the field you want to type into
+---
 
-Click the Human Typer bookmark
+## 📄 License
 
-Enter the text when prompted
-
-Watch it type naturally into the field
-
-That’s it 🙂
-
-📝 Notes & Limitations
-
-You must manually focus (click) the text field first
-
-Some websites may block simulated input for security reasons
-
-Works best in modern browsers like Chrome, Edge, and Firefox
-
-Safari may have limited bookmarklet support
+MIT License — free to use, modify, and distribute.
